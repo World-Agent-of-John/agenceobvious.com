@@ -1,0 +1,32 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "overused-font",
+        "value": "geist",
+        "createdAt": "2026-11-09T11:36:48.091Z",
+        "reason": "John a choisi le style « sobre et premium, dans la lignée du dashboard » (9 novembre 2026) ; Geist est la police du dashboard client"
+      },
+      {
+        "rule": "cramped-padding",
+        "value": "*",
+        "files": [
+          "docs/index.html"
+        ],
+        "createdAt": "2026-11-09T11:36:48.096Z",
+        "reason": "Faux positif vérifié par la relecture finale : les sections .constat, .main et .sur-mesure ont un padding-block de 4 à 8rem ou un padding-top avant leur bordure, visible sur les captures"
+      },
+      {
+        "rule": "tight-leading",
+        "value": "*",
+        "files": [
+          "docs/index.html"
+        ],
+        "createdAt": "2026-11-09T11:36:48.102Z",
+        "reason": "Interlignage serré voulu sur les titres d'affichage (h1 0,98, h2 1,05, phrase de clôture 1,2), consigné dans DESIGN.md (règle Titres Serrés) ; le texte courant est à 1,6"
+      }
+    ]
+  }
+}
