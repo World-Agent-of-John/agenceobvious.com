@@ -1,0 +1,438 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-09T11:35:49+00:00",
+  "title": "Design System: Agence Obvious",
+  "extensions": {
+    "colorMeta": {
+      "vert": {
+        "role": "primary",
+        "displayName": "Vert sapin profond",
+        "tonalRamp": [
+          "#173530",
+          "#285c53",
+          "#3a8376",
+          "#4baa9a",
+          "#71c1b3",
+          "#9cd3ca",
+          "#c6e6e1",
+          "#edf7f5"
+        ]
+      },
+      "vert-pale": {
+        "role": "primary",
+        "displayName": "Vert brume",
+        "tonalRamp": [
+          "#1f2e28",
+          "#364f45",
+          "#4c7063",
+          "#639280",
+          "#86ac9e",
+          "#aac5bb",
+          "#ceded8",
+          "#f0f5f3"
+        ]
+      },
+      "sur-vert": {
+        "role": "primary",
+        "displayName": "Texte sur vert"
+      },
+      "aplat": {
+        "role": "secondary",
+        "displayName": "Aplat sapin"
+      },
+      "aplat-texte": {
+        "role": "secondary",
+        "displayName": "Texte sur aplat"
+      },
+      "aplat-doux": {
+        "role": "secondary",
+        "displayName": "Texte doux sur aplat"
+      },
+      "aplat-trait": {
+        "role": "secondary",
+        "displayName": "Filet sur aplat"
+      },
+      "fond": {
+        "role": "neutral",
+        "displayName": "Papier cassé",
+        "tonalRamp": [
+          "#2a2a22",
+          "#49493c",
+          "#686855",
+          "#87876e",
+          "#a3a38f",
+          "#bfbfb0",
+          "#dadad2",
+          "#f4f4f1"
+        ]
+      },
+      "surface": {
+        "role": "neutral",
+        "displayName": "Blanc carte"
+      },
+      "texte": {
+        "role": "neutral",
+        "displayName": "Encre chaude",
+        "tonalRamp": [
+          "#272726",
+          "#444441",
+          "#60605d",
+          "#7d7d78",
+          "#9b9b97",
+          "#b9b9b6",
+          "#d7d7d5",
+          "#f2f2f2"
+        ]
+      },
+      "doux": {
+        "role": "neutral",
+        "displayName": "Gris galet",
+        "tonalRamp": [
+          "#272725",
+          "#444441",
+          "#60605c",
+          "#7d7d78",
+          "#9b9b97",
+          "#b9b9b6",
+          "#d7d7d5",
+          "#f3f3f2"
+        ]
+      },
+      "trait": {
+        "role": "neutral",
+        "displayName": "Filet",
+        "tonalRamp": [
+          "#292923",
+          "#48483d",
+          "#666657",
+          "#848471",
+          "#a1a191",
+          "#bdbdb2",
+          "#d9d9d3",
+          "#f3f3f1"
+        ]
+      },
+      "erreur": {
+        "role": "error",
+        "displayName": "Brique",
+        "tonalRamp": [
+          "#40150c",
+          "#6f2415",
+          "#9f331e",
+          "#ce4227",
+          "#de6a54",
+          "#e89687",
+          "#f2c3ba",
+          "#fbecea"
+        ]
+      },
+      "fond-sombre": {
+        "role": "neutral",
+        "displayName": "Charbon (sombre)",
+        "tonalRamp": [
+          "#272725",
+          "#444440",
+          "#61615c",
+          "#7e7e77",
+          "#9c9c96",
+          "#babab6",
+          "#d7d7d5",
+          "#f3f3f2"
+        ]
+      },
+      "surface-sombre": {
+        "role": "neutral",
+        "displayName": "Surface charbon (sombre)"
+      },
+      "texte-sombre": {
+        "role": "neutral",
+        "displayName": "Ivoire (sombre)"
+      },
+      "doux-sombre": {
+        "role": "neutral",
+        "displayName": "Gris pierre (sombre)"
+      },
+      "trait-sombre": {
+        "role": "neutral",
+        "displayName": "Filet (sombre)"
+      },
+      "vert-sombre": {
+        "role": "primary",
+        "displayName": "Vert d'eau clair (sombre)",
+        "tonalRamp": [
+          "#18342e",
+          "#2a5b50",
+          "#3c8172",
+          "#4da894",
+          "#73bfae",
+          "#9dd2c6",
+          "#c7e5df",
+          "#eef7f5"
+        ]
+      },
+      "sur-vert-sombre": {
+        "role": "primary",
+        "displayName": "Texte sur vert (sombre)"
+      },
+      "vert-pale-sombre": {
+        "role": "primary",
+        "displayName": "Vert brume (sombre)"
+      },
+      "aplat-sombre": {
+        "role": "secondary",
+        "displayName": "Aplat sapin nocturne (sombre)"
+      },
+      "aplat-texte-sombre": {
+        "role": "secondary",
+        "displayName": "Texte sur aplat (sombre)"
+      },
+      "aplat-doux-sombre": {
+        "role": "secondary",
+        "displayName": "Texte doux sur aplat (sombre)"
+      },
+      "aplat-trait-sombre": {
+        "role": "secondary",
+        "displayName": "Filet sur aplat (sombre)"
+      },
+      "erreur-sombre": {
+        "role": "error",
+        "displayName": "Corail doux (sombre)"
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Le titre d'ouverture seul ; sa seconde moitié en vert."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Titres de section."
+      },
+      "statement": {
+        "displayName": "Statement",
+        "purpose": "Phrase de positionnement qui clôt une section, sous un filet d'encre de 2px."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Titres des exemples."
+      },
+      "title-sm": {
+        "displayName": "Title small",
+        "purpose": "Titres d'étapes et de blocs courts."
+      },
+      "lead": {
+        "displayName": "Lead",
+        "purpose": "Chapeaux de section."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Texte courant."
+      },
+      "body-ui": {
+        "displayName": "Body UI",
+        "purpose": "Contenu des cartes, labels, navigation."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Métadonnées, pastilles, statuts."
+      },
+      "caption": {
+        "displayName": "Caption",
+        "purpose": "Marqueur Exemple, en-têtes de tableau."
+      }
+    },
+    "shadows": [
+      {
+        "name": "pose",
+        "value": "0 1px 2px rgb(27 27 26 / 0.05), 0 6px 14px -8px rgb(27 27 26 / 0.16)",
+        "purpose": "Toutes les surfaces blanches (clair)."
+      },
+      {
+        "name": "pose-sombre",
+        "value": "0 1px 2px rgb(0 0 0 / 0.3), 0 6px 14px -8px rgb(0 0 0 / 0.5)",
+        "purpose": "Toutes les surfaces (sombre)."
+      },
+      {
+        "name": "halo-action",
+        "value": "0 6px 18px -8px var(--vert)",
+        "purpose": "Survol du bouton."
+      },
+      {
+        "name": "anneau-saisie",
+        "value": "0 0 0 3px color-mix(in srgb, var(--vert) 22%, transparent)",
+        "purpose": "Champ en focus."
+      },
+      {
+        "name": "focus",
+        "value": "outline: 2px solid var(--vert); outline-offset: 3px",
+        "purpose": "Anneau de focus clavier global (aplat-texte sur l'aplat)."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease-sortie",
+        "value": "cubic-bezier(0.16, 1, 0.3, 1)",
+        "purpose": "Courbe unique des transitions et des entrées."
+      },
+      {
+        "name": "etat-rapide",
+        "value": "160ms",
+        "purpose": "Bouton et champs."
+      },
+      {
+        "name": "etat-pastille",
+        "value": "300ms",
+        "purpose": "Changement de couleur de la pastille d'état."
+      },
+      {
+        "name": "coche",
+        "value": "520ms, décalage 260ms par rang",
+        "purpose": "Entrée successive des coches (échelle 0.4, flou 2px)."
+      },
+      {
+        "name": "apparait",
+        "value": "520-600ms",
+        "purpose": "Entrée de texte : montée de 4px et flou 3px."
+      },
+      {
+        "name": "reduced-motion",
+        "value": "1ms",
+        "purpose": "Toute animation et transition sous prefers-reduced-motion."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "une-colonne",
+        "value": "860px"
+      },
+      {
+        "name": "etroit",
+        "value": "520px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Bouton principal",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "L'action principale : contact, Valider, Envoyer.",
+      "html": "<button class=\"ds-bouton\">Parlons de votre activité</button>",
+      "css": ":root{--fond:#f6f6f4;--surface:#fff;--texte:#1b1b1a;--doux:#5c5c58;--trait:#e2e2dd;--vert:#24524a;--sur-vert:#fff;--vert-pale:#e6eeeb;--aplat:#24524a;--aplat-texte:#f4f7f6;--aplat-doux:#c2d6d0;--aplat-trait:#3d6a61;--erreur:#a3341f;--ombre:0 1px 2px rgb(27 27 26 / 0.05),0 6px 14px -8px rgb(27 27 26 / 0.16)} .ds-bouton{font-family:Geist,system-ui,sans-serif;display:inline-flex;align-items:center;justify-content:center;min-height:2.875rem;padding:0 1.25rem;border:1px solid transparent;border-radius:10px;background:var(--vert,#24524a);color:var(--sur-vert,#fff);font-size:0.9875rem;font-weight:600;line-height:1;cursor:pointer;transition:transform 160ms cubic-bezier(0.16,1,0.3,1),box-shadow 160ms}.ds-bouton:hover{box-shadow:0 6px 18px -8px var(--vert,#24524a)}.ds-bouton:active{transform:translateY(1px)}.ds-bouton:focus-visible{outline:2px solid var(--vert,#24524a);outline-offset:3px}"
+    },
+    {
+      "name": "Bouton discret",
+      "kind": "button",
+      "refersTo": "button-quiet",
+      "description": "Variante sans fond, à bord filet.",
+      "html": "<button class=\"ds-bouton-discret\">Annuler</button>",
+      "css": ":root{--fond:#f6f6f4;--surface:#fff;--texte:#1b1b1a;--doux:#5c5c58;--trait:#e2e2dd;--vert:#24524a;--sur-vert:#fff;--vert-pale:#e6eeeb;--aplat:#24524a;--aplat-texte:#f4f7f6;--aplat-doux:#c2d6d0;--aplat-trait:#3d6a61;--erreur:#a3341f;--ombre:0 1px 2px rgb(27 27 26 / 0.05),0 6px 14px -8px rgb(27 27 26 / 0.16)} .ds-bouton-discret{font-family:Geist,system-ui,sans-serif;display:inline-flex;align-items:center;min-height:2.875rem;padding:0 1.25rem;border:1px solid var(--trait,#e2e2dd);border-radius:10px;background:transparent;color:var(--texte,#1b1b1a);font-size:0.9875rem;font-weight:600;line-height:1;cursor:pointer;transition:transform 160ms cubic-bezier(0.16,1,0.3,1)}.ds-bouton-discret:active{transform:translateY(1px)}.ds-bouton-discret:focus-visible{outline:2px solid var(--vert,#24524a);outline-offset:3px}"
+    },
+    {
+      "name": "Champ de saisie",
+      "kind": "input",
+      "refersTo": "input",
+      "description": "Champ creusé en papier cassé dans une surface blanche.",
+      "html": "<label class=\"ds-label\">Votre nom<input class=\"ds-input\" placeholder=\"Claire Martin\"></label>",
+      "css": ":root{--fond:#f6f6f4;--surface:#fff;--texte:#1b1b1a;--doux:#5c5c58;--trait:#e2e2dd;--vert:#24524a;--sur-vert:#fff;--vert-pale:#e6eeeb;--aplat:#24524a;--aplat-texte:#f4f7f6;--aplat-doux:#c2d6d0;--aplat-trait:#3d6a61;--erreur:#a3341f;--ombre:0 1px 2px rgb(27 27 26 / 0.05),0 6px 14px -8px rgb(27 27 26 / 0.16)} .ds-label{font-family:Geist,system-ui,sans-serif;display:grid;gap:0.375rem;font-size:0.9375rem;font-weight:500;color:var(--texte,#1b1b1a)}.ds-input{font-family:Geist,system-ui,sans-serif;width:100%;padding:0.75rem 0.875rem;border:1px solid var(--trait,#e2e2dd);border-radius:10px;background:var(--fond,#f6f6f4);color:var(--texte,#1b1b1a);font-size:1rem;line-height:1.5;transition:border-color 160ms,box-shadow 160ms}.ds-input::placeholder{color:var(--doux,#5c5c58)}.ds-input:focus{outline:none;border-color:var(--vert,#24524a);box-shadow:0 0 0 3px color-mix(in srgb,var(--vert,#24524a) 22%,transparent)}"
+    },
+    {
+      "name": "Navigation",
+      "kind": "nav",
+      "refersTo": "nav",
+      "description": "En-tête : marque en texte et un lien.",
+      "html": "<header class=\"ds-entete\"><a class=\"ds-marque\" href=\"#\">Agence Obvious</a><nav><a class=\"ds-lien\" href=\"#\">Nous écrire</a></nav></header>",
+      "css": ":root{--fond:#f6f6f4;--surface:#fff;--texte:#1b1b1a;--doux:#5c5c58;--trait:#e2e2dd;--vert:#24524a;--sur-vert:#fff;--vert-pale:#e6eeeb;--aplat:#24524a;--aplat-texte:#f4f7f6;--aplat-doux:#c2d6d0;--aplat-trait:#3d6a61;--erreur:#a3341f;--ombre:0 1px 2px rgb(27 27 26 / 0.05),0 6px 14px -8px rgb(27 27 26 / 0.16)} .ds-entete{font-family:Geist,system-ui,sans-serif;display:flex;align-items:center;justify-content:space-between;gap:1rem;padding-block:1.25rem}.ds-marque{color:var(--texte,#1b1b1a);font-weight:650;font-size:1.0625rem;letter-spacing:-0.01em;text-decoration:none}.ds-lien{color:var(--texte,#1b1b1a);font-weight:500;font-size:0.9375rem;text-decoration-thickness:1px;text-underline-offset:0.2em}.ds-lien:hover{text-decoration-thickness:2px}.ds-lien:focus-visible{outline:2px solid var(--vert,#24524a);outline-offset:3px;border-radius:4px}"
+    },
+    {
+      "name": "Pastilles",
+      "kind": "chip",
+      "refersTo": "chip-etat",
+      "description": "État (vert brume, puis vert plein une fois validé) et Bientôt (bord filet).",
+      "html": "<span class=\"ds-etat\">À valider</span> <span class=\"ds-etat ds-validee\">Validé</span> <span class=\"ds-bientot\">Dès décembre</span>",
+      "css": ":root{--fond:#f6f6f4;--surface:#fff;--texte:#1b1b1a;--doux:#5c5c58;--trait:#e2e2dd;--vert:#24524a;--sur-vert:#fff;--vert-pale:#e6eeeb;--aplat:#24524a;--aplat-texte:#f4f7f6;--aplat-doux:#c2d6d0;--aplat-trait:#3d6a61;--erreur:#a3341f;--ombre:0 1px 2px rgb(27 27 26 / 0.05),0 6px 14px -8px rgb(27 27 26 / 0.16)} .ds-etat{font-family:Geist,system-ui,sans-serif;display:inline-flex;align-items:center;padding:0.25rem 0.625rem;border-radius:999px;background:var(--vert-pale,#e6eeeb);color:var(--vert,#24524a);font-size:0.8125rem;font-weight:600;transition:background 300ms,color 300ms}.ds-validee{background:var(--vert,#24524a);color:var(--sur-vert,#fff)}.ds-bientot{font-family:Geist,system-ui,sans-serif;display:inline-block;padding:0.1875rem 0.625rem;border:1px solid var(--trait,#e2e2dd);border-radius:999px;color:var(--doux,#5c5c58);font-size:0.8125rem;font-weight:500}"
+    },
+    {
+      "name": "Carte « À valider »",
+      "kind": "card",
+      "refersTo": "card",
+      "description": "La carte signature du dashboard : état, actions en rangées à filets, bouton Valider.",
+      "html": "<div class=\"ds-carte\"><div class=\"ds-tete\"><span class=\"ds-etat\">À valider</span><span class=\"ds-exemple\">Exemple</span></div><p class=\"ds-titre\">Suivi après le premier appel avec Claire</p><p class=\"ds-meta\">Préparé par votre agent il y a 2 min</p><ul class=\"ds-actions\"><li><svg class=\"ds-icone\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.75\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"3\" y=\"5\" width=\"18\" height=\"14\" rx=\"2\"/><path d=\"m3.5 6.5 8.5 6.5 8.5-6.5\"/></svg><div><strong>Mail de suivi, depuis votre adresse</strong><small>Le récapitulatif de l'appel</small></div><span class=\"ds-statut\">Prêt</span></li></ul><button class=\"ds-valider\">Valider</button></div>",
+      "css": ":root{--fond:#f6f6f4;--surface:#fff;--texte:#1b1b1a;--doux:#5c5c58;--trait:#e2e2dd;--vert:#24524a;--sur-vert:#fff;--vert-pale:#e6eeeb;--aplat:#24524a;--aplat-texte:#f4f7f6;--aplat-doux:#c2d6d0;--aplat-trait:#3d6a61;--erreur:#a3341f;--ombre:0 1px 2px rgb(27 27 26 / 0.05),0 6px 14px -8px rgb(27 27 26 / 0.16)} .ds-carte{font-family:Geist,system-ui,sans-serif;max-width:28rem;background:var(--surface,#fff);border:1px solid var(--trait,#e2e2dd);border-radius:16px;box-shadow:var(--ombre,0 1px 2px rgb(27 27 26 / 0.05),0 6px 14px -8px rgb(27 27 26 / 0.16));padding:1.375rem;font-size:0.9375rem;color:var(--texte,#1b1b1a)}.ds-tete{display:flex;align-items:center;justify-content:space-between}.ds-etat{padding:0.25rem 0.625rem;border-radius:999px;background:var(--vert-pale,#e6eeeb);color:var(--vert,#24524a);font-size:0.8125rem;font-weight:600}.ds-exemple{color:var(--doux,#5c5c58);font-size:0.75rem;font-weight:500;letter-spacing:0.01em}.ds-titre{margin:1rem 0 0;font-size:1.0625rem;font-weight:600;letter-spacing:-0.01em}.ds-meta{margin:0.25rem 0 0;color:var(--doux,#5c5c58);font-size:0.8125rem}.ds-actions{list-style:none;margin:1.125rem 0 0;padding:0;border-top:1px solid var(--trait,#e2e2dd)}.ds-actions li{display:grid;grid-template-columns:2rem minmax(0,1fr) auto;gap:0.75rem;padding:0.875rem 0;border-bottom:1px solid var(--trait,#e2e2dd)}.ds-icone{width:2rem;height:2rem;padding:0.4375rem;border-radius:8px;background:var(--vert-pale,#e6eeeb);color:var(--vert,#24524a)}.ds-actions strong{display:block;font-weight:600}.ds-actions small{display:block;color:var(--doux,#5c5c58);font-size:0.8125rem}.ds-statut{color:var(--doux,#5c5c58);font-size:0.8125rem;font-variant-numeric:tabular-nums}.ds-valider{font-family:Geist,system-ui,sans-serif;margin-top:1.125rem;min-height:2.5rem;padding:0 1.25rem;border:0;border-radius:10px;background:var(--vert,#24524a);color:var(--sur-vert,#fff);font-size:0.9375rem;font-weight:600;cursor:pointer}.ds-valider:hover{box-shadow:0 6px 18px -8px var(--vert,#24524a)}.ds-valider:focus-visible{outline:2px solid var(--vert,#24524a);outline-offset:3px}"
+    },
+    {
+      "name": "Fragment d'exemple",
+      "kind": "card",
+      "refersTo": "fragment",
+      "description": "Morceau d'interface réelle servant de preuve, données en rangées à filets.",
+      "html": "<div class=\"ds-fragment\"><div class=\"ds-ftete\"><strong>À suivre</strong><span class=\"ds-exemple\">Exemple</span></div><ul class=\"ds-suivi\"><li><span>Claire</span><span>2e rendez-vous posé</span><span>mar. 18/11</span></li><li><span>Inès</span><span>Attend son financement</span><span>mar. 02/12</span></li></ul></div>",
+      "css": ":root{--fond:#f6f6f4;--surface:#fff;--texte:#1b1b1a;--doux:#5c5c58;--trait:#e2e2dd;--vert:#24524a;--sur-vert:#fff;--vert-pale:#e6eeeb;--aplat:#24524a;--aplat-texte:#f4f7f6;--aplat-doux:#c2d6d0;--aplat-trait:#3d6a61;--erreur:#a3341f;--ombre:0 1px 2px rgb(27 27 26 / 0.05),0 6px 14px -8px rgb(27 27 26 / 0.16)} .ds-fragment{font-family:Geist,system-ui,sans-serif;max-width:30rem;background:var(--surface,#fff);border:1px solid var(--trait,#e2e2dd);border-radius:12px;box-shadow:var(--ombre,0 1px 2px rgb(27 27 26 / 0.05),0 6px 14px -8px rgb(27 27 26 / 0.16));padding:1.25rem;font-size:0.9375rem;color:var(--texte,#1b1b1a)}.ds-ftete{display:flex;align-items:baseline;justify-content:space-between;margin-bottom:1rem}.ds-ftete strong{font-weight:600}.ds-exemple{color:var(--doux,#5c5c58);font-size:0.75rem;font-weight:500;letter-spacing:0.01em}.ds-suivi{list-style:none;margin:0;padding:0;font-variant-numeric:tabular-nums}.ds-suivi li{display:grid;grid-template-columns:minmax(0,7rem) minmax(0,1fr) auto;gap:0.75rem;padding:0.75rem 0;border-top:1px solid var(--trait,#e2e2dd)}.ds-suivi li span:nth-child(2){color:var(--doux,#5c5c58)}.ds-suivi li span:last-child{color:var(--vert,#24524a);font-weight:600}"
+    },
+    {
+      "name": "Aplat d'engagement",
+      "kind": "custom",
+      "refersTo": "aplat",
+      "description": "La seule section pleine largeur en vert, pour l'engagement de confidentialité.",
+      "html": "<section class=\"ds-aplat\"><h2>Vous gardez la main.</h2><div class=\"ds-eng\"><h3>Rien ne part sans vous</h3><p>Un agent prépare. Il n'envoie rien sans votre validation.</p></div></section>",
+      "css": ":root{--fond:#f6f6f4;--surface:#fff;--texte:#1b1b1a;--doux:#5c5c58;--trait:#e2e2dd;--vert:#24524a;--sur-vert:#fff;--vert-pale:#e6eeeb;--aplat:#24524a;--aplat-texte:#f4f7f6;--aplat-doux:#c2d6d0;--aplat-trait:#3d6a61;--erreur:#a3341f;--ombre:0 1px 2px rgb(27 27 26 / 0.05),0 6px 14px -8px rgb(27 27 26 / 0.16)} .ds-aplat{font-family:Geist,system-ui,sans-serif;padding:3rem 2rem;background:var(--aplat,#24524a);color:var(--aplat-texte,#f4f7f6)}.ds-aplat h2{margin:0;max-width:14ch;font-size:2.5rem;font-weight:600;line-height:1.05;letter-spacing:-0.035em}.ds-eng{margin-top:1.5rem;padding:1.5rem 0;border-top:1px solid var(--aplat-trait,#3d6a61)}.ds-eng h3{margin:0;font-size:1.5rem;font-weight:600;letter-spacing:-0.02em}.ds-eng p{margin:0.625rem 0 0;color:var(--aplat-doux,#c2d6d0)}"
+    }
+  ],
+  "narrative": {
+    "northStar": "Le dashboard ouvert sur la rue",
+    "overview": "**Creative North Star: \"Le dashboard ouvert sur la rue\"**\n\nLe site n'invente pas un monde de marque à côté du produit : il prolonge le dashboard client de la même entreprise. Même fond blanc cassé, mêmes cartes blanches à bord fin, même vert profond pour l'action, même Geist. Le visiteur voit d'emblée la matière qu'il retrouvera dans son espace, et la preuve passe par des fragments d'interface réelle plutôt que par des illustrations.\n\nLa densité est calme : de larges respirations entre sections, deux colonnes asymétriques sur grand écran, du texte courant en gris doux et des titres très serrés (interlettrage négatif) qui portent la voix. La couleur reste rare, sauf une fois : un grand aplat vert pleine largeur porte l'engagement de confidentialité. Le mode sombre suit le système (prefers-color-scheme) et remappe chaque rôle, il n'est pas une inversion.\n\nRejets confirmés par le contrat de direction : pas de héros SaaS avec dégradé, pas de capture d'écran en perspective, pas de grille de six icônes.",
+    "keyCharacteristics": [
+      "Fond blanc cassé, cartes blanches définies par un bord fin de 1px, ombre courte et douce.",
+      "Un seul accent, le vert profond, pour l'action, l'état et les valeurs clés.",
+      "Geist auto-hébergée, graisse 600 pour toute la hiérarchie, chiffres tabulaires partout où il y a des données.",
+      "Listes à filets fins plutôt que boîtes imbriquées.",
+      "Clair et sombre à rôles égaux, pilotés par le système."
+    ],
+    "rules": [
+      {
+        "name": "The Un Seul Vert Rule",
+        "body": "Le vert est la seule couleur d'accent. Il désigne ce qui agit ou ce qui compte (action, état, valeur), jamais la décoration.",
+        "section": "colors"
+      },
+      {
+        "name": "The Un Seul Aplat Rule",
+        "body": "Une page porte au plus un aplat vert pleine largeur, réservé à un engagement. Le reste vit sur le papier cassé.",
+        "section": "colors"
+      },
+      {
+        "name": "The Rôles Doublés Rule",
+        "body": "Toute couleur ajoutée reçoit sa valeur claire et sa valeur sombre, déclarées ensemble dans les propriétés de :root et son bloc prefers-color-scheme: dark.",
+        "section": "colors"
+      },
+      {
+        "name": "The Titres Serrés Rule",
+        "body": "Plus le titre est grand, plus l'interlettrage est négatif (de -0.015em à -0.04em) et plus l'interlignage est court. Le texte courant garde un interlettrage normal.",
+        "section": "typography"
+      },
+      {
+        "name": "The Chiffres Tabulaires Rule",
+        "body": "Notes, dates, heures et compteurs sont en font-variant-numeric: tabular-nums.",
+        "section": "typography"
+      },
+      {
+        "name": "The Le Bord Avant l'Ombre Rule",
+        "body": "C'est le filet qui définit une carte ; l'ombre reste courte et ne remplace jamais le bord.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "**Do** définir une carte par son bord de 1px en filet, puis seulement l'ombre Pose.",
+      "**Do** réserver le vert à l'action, à l'état et aux valeurs clés ; le texte secondaire est en gris doux.",
+      "**Do** marquer chaque fragment d'interface fictif par « Exemple » (caption, 0.75rem, gris doux) dans son en-tête, et dire ce qui n'arrive qu'en décembre avec la pastille Bientôt.",
+      "**Do** déclarer chaque nouvelle couleur en clair et en sombre dans les propriétés de :root.",
+      "**Do** utiliser les chiffres tabulaires pour toute donnée chiffrée ou datée.",
+      "**Do** numéroter une suite seulement quand l'ordre porte une information, comme les trois étapes."
+    ],
+    "donts": [
+      "**Don't** utiliser de dégradé, de capture d'écran en perspective ni de grille de six icônes.",
+      "**Don't** ajouter une seconde couleur d'accent ou un second aplat vert sur la même page.",
+      "**Don't** utiliser le marqueur « Exemple » comme surtitre au-dessus d'un titre de section : il ne qualifie qu'un fragment d'interface.",
+      "**Don't** emboîter des cartes dans des cartes ; à l'intérieur d'une surface, on sépare par des filets.",
+      "**Don't** remplacer les pictogrammes SVG à trait (1.75, coins arrondis) par des glyphes ou des emojis."
+    ]
+  }
+}
