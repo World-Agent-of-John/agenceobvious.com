@@ -30,20 +30,26 @@
   <ul>
     <li><strong>Votre compte</strong> : adresse email, mot de passe (stocké sous forme hachée), passkeys (clés publiques seulement), journal de sécurité (connexions, adresse IP).</li>
     <li><strong>Vos données de travail</strong> : ce que vous confiez à votre espace, par exemple les comptes rendus de vos appels et les informations utiles sur vos prospects.</li>
-    <li><strong>Vos données Google</strong>, seulement si vous connectez votre compte Google : voir la partie suivante.</li>
+    <li><strong>Vos données Google</strong>, seulement si vous connectez un compte Google : voir la partie suivante.</li>
+    <li><strong>Vos identifiants Zoom</strong>, seulement si vous connectez Zoom : voir la partie Zoom.</li>
     <li><strong>Le formulaire de contact du site</strong> : votre nom, votre email, votre activité et votre message. Ils servent uniquement à vous répondre : ils passent par notre serveur d'automatisation (OVHcloud), qui n'en garde aucune copie, et arrivent dans notre messagerie (Google Workspace), où ils restent le temps de l'échange. Vous pouvez demander leur effacement à tout moment.</li>
   </ul>
 
   <h2>Les données Google</h2>
-  <p>Quand vous connectez votre compte Google depuis votre espace, nous demandons trois accès :</p>
+  <p>Vous pouvez connecter un ou plusieurs comptes Google depuis votre espace. Pour chacun, nous demandons quatre accès :</p>
   <ul>
     <li>votre adresse email, pour afficher le compte connecté ;</li>
-    <li>la gestion des événements de votre agenda, pour créer les rendez-vous que vous avez validés ;</li>
-    <li>l'envoi d'emails depuis votre adresse, pour envoyer les messages que vous avez validés. Cet accès ne permet pas de lire votre boîte de réception.</li>
+    <li>les événements de votre agenda, en lecture et en création : un agent y retrouve vos rendez-vous, et votre espace y crée ceux que vous avez validés, avec l'invitation de vos contacts et, si vous le choisissez, un lien Google Meet ;</li>
+    <li>la lecture de vos emails, pour qu'un agent retrouve une information utile à une tâche, par exemple un échange avec un prospect. Cet accès est en lecture seule : il ne permet ni de modifier ni de supprimer un message ;</li>
+    <li>l'envoi d'emails depuis votre adresse, pour envoyer les messages que vous avez validés.</li>
   </ul>
-  <p>Aucun rendez-vous n'est créé et aucun email n'est envoyé sans votre validation dans votre espace. L'autorisation donnée par Google est conservée chiffrée dans votre espace : elle n'est jamais affichée, jamais transmise à un modèle d'IA ni à un tiers. Les données reçues des API Google ne servent ni à entraîner des modèles d'IA, ni à la publicité, et ne sont jamais vendues.</p>
+  <p>Un agent ne touche jamais votre compte Google : il demande à votre espace, qui interroge Google et ne lui rend que les résultats. Ce qu'il lit passe par OpenAI, comme le reste de son travail (voir plus bas), et peut rester dans l'historique de ses conversations, sur votre serveur. Il n'en recopie dans votre espace que ce qu'une tâche demande, par exemple l'adresse d'un prospect dans un rendez-vous à valider.</p>
+  <p>Aucun rendez-vous n'est créé et aucun email n'est envoyé sans votre validation dans votre espace. L'autorisation donnée par Google est conservée chiffrée dans votre espace : elle n'est jamais affichée, jamais transmise à un modèle d'IA ni à un tiers. Personne chez Agence Obvious ne lit vos emails, sauf à votre demande, pour la sécurité ou pour respecter la loi. Agence Obvious ne se sert pas des données reçues des API Google pour entraîner des modèles d'IA ni pour la publicité, et ne les vend jamais.</p>
   <p>L'utilisation et le transfert vers toute autre application des informations reçues des API Google par Agence Obvious respectent le <a href="https://developers.google.com/terms/api-services-user-data-policy">Règlement sur les données utilisateur des services d'API Google</a>, y compris les exigences d'utilisation limitée.</p>
   <p>Vous pouvez retirer cet accès à tout moment, depuis votre espace (Connexions) ou depuis votre compte Google (<a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>).</p>
+
+  <h2>Zoom</h2>
+  <p>Si vous connectez Zoom, vous créez dans votre propre compte Zoom une application qui sert uniquement à créer des réunions, puis vous saisissez ses identifiants dans votre espace. Ils y sont conservés chiffrés, ne sont jamais réaffichés ni montrés à un agent. Pour chaque rendez-vous en visio Zoom que vous avez validé, votre espace crée une nouvelle réunion et transmet à Zoom son titre, sa date et sa durée. Vous pouvez retirer cet accès depuis votre espace (Connexions) ou en supprimant l'application dans votre compte Zoom.</p>
 
   <h2>Où sont vos données</h2>
   <p>Chaque client a son propre serveur chez OVHcloud, isolé de ceux des autres clients, dans la région convenue avec lui. Les sauvegardes sont chiffrées.</p>
@@ -51,15 +57,16 @@
   <h2>Les services qui interviennent</h2>
   <ul>
     <li><strong>OVHcloud</strong> : hébergement des serveurs.</li>
-    <li><strong>OpenAI</strong> : les agents utilisent le modèle de votre propre abonnement ChatGPT. Ce que l'agent traite pour vous (un compte rendu, un message à valider) passe par OpenAI.</li>
+    <li><strong>OpenAI</strong> : les agents utilisent le modèle de votre propre abonnement ChatGPT. Ce que l'agent traite pour vous (un compte rendu, un message à valider, un email ou un événement qu'il lit) passe par OpenAI.</li>
     <li><strong>Telegram</strong> : si vous échangez avec votre agent par Telegram, vos messages passent par ce service.</li>
     <li><strong>Google</strong> : seulement si vous connectez votre compte, comme décrit plus haut, et notre propre messagerie (Google Workspace), qui reçoit les messages du formulaire de contact.</li>
+    <li><strong>Zoom</strong> : seulement si vous le connectez, pour créer les réunions des rendez-vous que vous avez validés.</li>
   </ul>
 
   <h2>Durée de conservation</h2>
   <ul>
     <li>Un prospect sans rendez-vous depuis 12 mois est anonymisé : son nom, les comptes rendus et les liens d'enregistrement sont effacés, seules restent des données sans nom (issue de l'appel, notes, objections).</li>
-    <li>L'accès Google est conservé jusqu'à ce que vous le retiriez.</li>
+    <li>Les accès Google et Zoom sont conservés jusqu'à ce que vous les retiriez.</li>
   </ul>
 
   <h2>Vos droits</h2>

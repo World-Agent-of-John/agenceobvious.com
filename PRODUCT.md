@@ -32,7 +32,9 @@ Ce qui tourne aujourd'hui (peut être montré comme tel) :
 - le compte rendu d'un appel de vente à partir de son lien d'enregistrement, au format de la grille du client, horodaté ;
 - une base des appels où l'on retrouve un appel par prénom (le deuxième rendez-vous retrouve le premier) ; un prospect sans rendez-vous depuis 12 mois est anonymisé ;
 - le dashboard privé, installable sur le téléphone, avec le suivi de la consommation ;
-- la connexion Google (agenda, et envoi de mails depuis l'adresse du client, sans jamais lire sa boîte).
+- la connexion Google, un ou plusieurs comptes : l'agent lit l'agenda et les mails (lecture seule), sans jamais voir l'autorisation elle-même.
+
+Codé le 9 novembre 2026, à montrer comme « tourne » seulement après un premier essai réel : après un premier appel, le rendez-vous suivant proposé par l'agent (Google Meet ou Zoom, prospect invité), créé dans l'agenda une fois validé.
 
 Prévu pour décembre 2026 (John accepte de le montrer, marqué « dès décembre ») : après un premier appel, le suivi préparé dans une seule carte (prochain rendez-vous dans l'agenda, mail de suivi depuis l'adresse du client, message WhatsApp prêt à partir de son propre numéro), validé d'un geste ; la liste des prospects à suivre.
 
